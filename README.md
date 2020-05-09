@@ -30,3 +30,9 @@ Download all your Joomla SQL files into the `db` folder. Next, within your `dock
 ### Setting Up Existing Source Code
 
 Download all your source code files into the `src` folder. Next, within your `docker-compose.yml` under the Joomla services `uncomment` the volumes section. This will establish a symlink of all the files in the src directory and var/www/html in the docker container.
+
+## Similar Applications
+
+* [Docker WordPress Development Environment](https://github.com/jonepl/Docker-WordPress-Dev-Env)
+* [Docker Drupal  Development Environment](https://github.com/jonepl/Docker-Drupal-Dev-Env)
+
